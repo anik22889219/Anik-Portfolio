@@ -1,8 +1,46 @@
-body{
-    background-color: antiquewhite;
+body {
+    background-color: white;
     font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
 }
 
-h1{
-    font-size: 50px;
+h1 {
+    font-size: 40px;
+}
+
+.name {
+    color: darkorange;
+}
+
+section {
+    display: flex;
+
+}
+
+.left-side {
+    width: 50%;
+    padding-left: 2%;
+}
+
+.img .Image {
+
+    width: 80%;
+    height: 80%;
+
+}
+
+.hire-button {
+    text-decoration: none;
+    background-color: brown;
+    color: white;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 7px;
+
+}
+
+.bener {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    width: 100%;
 }
