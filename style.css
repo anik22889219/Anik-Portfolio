@@ -18,14 +18,19 @@ section {
 }
 
 .left-side {
-    width: 50%;
+    width: 60%;
+    float: left;
+    margin-left: 5%;
     padding-left: 2%;
 }
 
 .img .Image {
 
-    width: 80%;
-    height: 80%;
+    width: 60%;
+    float: right;
+    margin-right: 20%;
+    margin-top: 10px;
+
 
 }
 
