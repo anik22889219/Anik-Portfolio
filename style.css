@@ -91,11 +91,18 @@ h2 {
 #first-slide {
     border-left: 7px solid tomato;
     padding: 5px;
+    overflow: hidden;
 }
 
 #first-slide:hover {
     box-shadow: 10px 14px 60px color-mix(in hsl shorter hue, red percentage, orange percentage);
+    height: 450px;
+}
 
+#secound-slide:hover {
+    box-shadow: 10px 14px 60px color-mix(in hsl shorter hue, red percentage, orange percentage);
+    overflow: visible;
+    height: 450px;
 }
 
 
@@ -106,4 +113,59 @@ h2 {
     padding: 5px;
     border-image: linear-gradient(blue 100%, cyan 100%);
     border-image-slice: 1;
+    overflow: hidden;
+}
+
+
+.footer {
+    text-align: center;
+    background-color: black;
+    padding: 40px;
+}
+
+.footer a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    margin: 20px;
+
+
+
+}
+
+.footer a:hover {
+    color: tomato;
+    text-decoration: underline;
+}
+
+.footer p {
+    color: aliceblue;
+    margin: 20px;
+}
+
+.footer p:hover {
+    color: tomato;
+
+}
+
+.anik {
+    color: darkorange;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    font-size: 150%;
+    font-weight: 700;
+    text-shadow: 5px 5px 10px;
+    position: relative;
+    bottom: 30px;
+    left: 30%;
+    visibility: hidden;
+    text-align: center;
+    z-index: 1;
+    font-style: italic;
+
+}
+
+.half-width:hover .anik {
+    visibility: visible;
 }
